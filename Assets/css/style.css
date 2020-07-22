@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-image: url("https://wallpaperplay.com/walls/full/d/6/4/66852.jpg");
+    }
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  main {
+    margin: 80px 0;
+  }
+  
+.block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-top: 5px; 
+    border-style: solid;
+   
+  }
+  
+  .block-header {
+    color: thistle;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+
+p{
+    text-align: justify;
+}
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+/*Header with Navbar*/
+header {
+    background-color: thistle;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    border-top: 5px; 
+    border-style: solid;
+    width: 100%;
+    justify-content: space-between;
+    display: inline-block;
+    }
+
+#logo{
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-style: oblique;
+    width: 100%;
+    color: white;
+    margin-right: 25px;
+    padding: 0px 20px;
+     
+}
+.navbar-nav {
+   flex-direction: row;
+   text-align: center;
+}
+/*Index.html*/
+#profilepicture { 
+    width:13em;
+	float: left;
+    margin:0 1em 1em 0;
+    border-style: solid;
+    border-color: thistle;
+    cursor: pointer;
+}
+
+/*Porfolio.html*/
+.img-fluid {
+    margin: 20px auto;
+}
+.oiseau img {
+max-width: 100%;
+height: 250px;
+width: 300px;
+border-radius: 50%;
+border-color: thistle;
+border-style: solid;
+}
+.center {
+    background: thistle;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: white;
+    border: white;
+    border-style: double;
+    text-align: center;
+    top: 50%;
+    right: 10%;
+    width: 80%;
+    position: absolute;
+    text-shadow: 2px 2px 5px thistle;
+}
+/*Contact.html*/
+
+.form-control {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .submit-btn {
+    /* Box-model */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    font-weight: bold;
+    background-color: thistle;
+    border: 0;
+  }
+
+/*Footer*/
+
+footer {
+    border-top: 5px;
+    border-style: solid;
+    border-color: black;
+    font-family:'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: thistle;
+    width: 100%;
+}
+footer .clearfix {
+    position: sticky;
+}
+footer div {
+    margin-top: 10px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+}
