@@ -110,6 +110,9 @@ border-style: solid;
     position: absolute;
     text-shadow: 2px 2px 5px thistle;
 }
+.listerepo {
+    color: black !important;
+}
 /*Contact.html*/
 
 .form-control {
