@@ -1,0 +1,52 @@
+.page{
+    width: 780px;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intitule{
+    height: 250px;
+}
+.info{
+    float: left;
+}
+.titreintitule {
+    float: right;
+    margin-right: 100px;
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+    
+}
+.sec-gauche{
+    float: left;
+}
+.sec-droite{
+    margin-left: 200px;
+}
+h2{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: #3388BB;
+    background-color: lightgray;
+}
+h5{
+    margin-left: 250px;
+    font-style: italic;
+    text-align: center; 
+}
+
+.block{
+    width: 200px;
+    height: 245px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    border-style: solid; 
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+
