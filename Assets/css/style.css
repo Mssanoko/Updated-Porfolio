@@ -84,6 +84,13 @@ header {
     border-color: thistle;
     cursor: pointer;
 }
+.socialmediablock {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
 
 /*Porfolio.html*/
 .img-fluid {
