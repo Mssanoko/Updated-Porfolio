@@ -98,9 +98,10 @@ header {
     border-color: thistle;
     cursor: pointer;
 }
+
 /*Social Media Block*/
-.row2 .a {
-    border: black;
+.row2 {
+    margin-left: 6px;
 }
 .fa {
     padding: 20px;
