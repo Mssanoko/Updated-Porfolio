@@ -100,48 +100,50 @@ header {
 }
 
 /*Social Media Block*/
-.row2 {
-    margin-left: 6px;
-}
-.fa {
-    padding: 20px;
+
+.row2 .fa {
+    padding:15px;
     font-size: 30px;
     width: 60px;
     border-radius: 50%;
     margin: 5px 2px;
+    border: 2px solid black; 
+}
+.row2 .fa:hover {
+    opacity: 0.7;
     
 }
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-github {
+.row2 .fa-github {
     background:thistle;
     color: white;
+    
 }
-.fa-linkedin {
+.row2 .fa-linkedin {
     background: thistle;
     color: white;
   }
-.fa-facebook {
+.row2 .fa-facebook {
     background: thistle;
     color: white;
+    padding-left: 20px;
   }
-  .fa-envelope-o {
+.row2 .fa-envelope-o {
       background: thistle;
       color: white;
   }
-  .fa-file-word-o {
+.row2 .fa-file-word-o {
       background: thistle;
       color: white;
   }
-  .fa-twitter {
+.row2 .fa-twitter {
       background: thistle;
       color: white;
   }
 
-  .fa-mobile {
+.row2 .fa-mobile {
       background: thistle;
       color: white;
+      padding-left: 20px;
   }
 /*Porfolio.html*/
 .img-fluid {
@@ -204,6 +206,11 @@ footer {
 }
 footer .clearfix {
     position: sticky;
+
+}
+footer .fa {
+    color: white;
+    letter-spacing: 2px;
 }
 footer div {
     margin-top: 10px;
