@@ -99,6 +99,39 @@ header {
     cursor: pointer;
 }
 
+.progress {
+  width: 50%
+}
+.h3 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  color: #2c3e50;
+  position: relative;
+}
+
+.col-md-5 {
+  width: 48%;
+
+}
+.col-md-1 {
+    width: 190px;
+
+}
+.li {
+  color: white;
+}
+.skills-section {
+color: black;
+}
+.progress-bar {
+background-color:thistle
+}
+a {
+color: thistle;
+}
+
 /*Social Media Block*/
 
 .row2 .fa {
